@@ -69,7 +69,7 @@ jQuery(function($) {'use strict';
 	      afterMove : moved,
 	      startDragging : pauseOnDragging,
 	      //autoHeight : true,
-	      transitionStyle : "fadeUp"
+	      transitionStyle : "fade"
 	    });
 	 
 	    //Init progressBar where elem is $("#owl-demo")
