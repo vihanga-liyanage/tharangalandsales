@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script> 
+	$(document).ready(function(){
+	    $("#search-header").click(function(){
+	        $("#search-content").slideToggle("slow");
+	    });
+	});
+	</script>
+
+	<style type="text/css">
+	#search{
+		width: 300px;
+		position: fixed;
+	    bottom: 8px;
+	    right: 16px;
+	    border-radius: 5px;
+
+	}
+
+	#search-header{
+		background-color: #45aed6;
+		height: 30px;
+		padding: 10px;
+		border-top-left-radius: 9px;
+		border-top-right-radius: 9px;
+		text-align: center;
+		font-size: 19px;
+		font-weight: bold;
+		font-family: verdana;
+	}
+
+	#search-content{
+		height: 200px;
+		display: none;
+		background-color: #ddd;
+		padding: 10px;
+	}
+	</style>
+</head>
+<body>
+	<!-- BEGIN OLARK TAB-->
+	<div id="search">
+		<div id="search-header">
+			Search your land now!
+		</div>
+        <div id="search-content">
+        	<input placeholder="Enter Location" style="width:275px; height: 25px;"></input>
+        	<br><br>
+        	District
+        	<select style="width: 200px; height: 25px;">
+        		<option>Colombo</option>
+        		<option>Galle</option>
+        		<option>Gampaha</option>
+        		<option>Matara</option>
+        	</select>
+        </div>
+    </div>
+
+</body>
+</html>
