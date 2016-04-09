@@ -1,0 +1,30 @@
+/* FLoating search boc CSS */
+#search{
+	width: 300px;
+	position: fixed;
+    bottom: 8px;
+    right: 16px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#search-header{
+	background-color: #45aed6;
+	height: 45px;
+	padding: 10px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	font-family: verdana;
+}
+
+#search-content{
+	height: 320px;
+	display: none;
+	background-color: #ddd;
+	padding: 10px;
+    font-family: verdana;
+    font-size: 14px;
+}
