@@ -6,6 +6,7 @@
     right: 16px;
     border-radius: 5px;
     z-index: 100;
+    margin-bottom: -8px;
 }
 
 #search-header{
